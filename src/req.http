@@ -1,0 +1,27 @@
+# curl 'http://nyx.vima.ekt.gr:3000/api/books'
+#  -H 'Connection: keep-alive'
+#  -H 'Pragma: no-cache'
+#  -H 'Cache-Control: no-cache'
+#  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36'
+#  -H 'Content-Type: application/json'
+#  -H 'Accept: */*'
+#  -H 'Origin: http://localhost:3000'
+#  -H 'Referer: http://localhost:3000/'
+#  -H 'Accept-Language: en-GB,en;q=0.9'
+#  --data-raw '{"page":"2","itemsPerPage":20,"filters":[{"type":"all","values":[""]}]}'
+#  --compressed
+POST http://nyx.vima.ekt.gr:3000/api/books
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+Accept: */*
+Origin: http://localhost:3000
+Referer: http://localhost:3000/
+Accept-Language: en-GB,en;q=0.9
+Content-Type: application/json
+
+{"page":1,"itemsPerPage":1,"filters":[{"type":"all","values":[""]}]}
+
+###
+
