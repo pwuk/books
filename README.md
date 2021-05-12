@@ -1,7 +1,7 @@
 # Peter's book repositry list
 
-###Live example  
-http://sprocket.co.uk/1/10/smith
+### Live example  
+http://sprocket.co.uk/books/1/10/smith
 (will not work with HTTPS as the API doesn't appear to support)
 
 ### repo link
