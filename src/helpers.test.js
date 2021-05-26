@@ -1,5 +1,6 @@
 import {
   isNumberOdd,
+  isNumberEven,
   showHighLight,
   nearestPageBoundary,
   pagerMenu, generatePageSizeSelectionData,
@@ -16,7 +17,11 @@ describe("helper function tests", () => {
   test("isNumberOdd: odd number check", () => {
     expect(isNumberOdd(101)).toBe(true);
     expect(isNumberOdd(102)).toBe(false);
-    expect(isNumberOdd("x")).toBe(false);
+  });
+
+  test("isNumberOdd: even number check", () => {
+    expect(isNumberEven(101)).toBe(false);
+    expect(isNumberEven(102)).toBe(true);
   });
 
   test('nearestPageBoundary: calculate nearest page boundrary from total record count', ()=>{
